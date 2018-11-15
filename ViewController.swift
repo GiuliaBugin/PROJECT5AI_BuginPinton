@@ -22,3 +22,10 @@ func fromStirngToInt(var stringa) -> int
     let intero:Int! = Int(ciao)
     return intero
 }
+
+func calcolaAreaQuadrato(var lato) -> double
+{
+    var lato2 = double(lato)
+    var area = pow(lato2, 2.0)
+    return area
+}
